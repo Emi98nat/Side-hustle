@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #fffaff;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: -1;
+}
+/*smaller div styles*/
+
+.smaller {
+    width: 100%;
+    height: 40%;
+    background: url(../images/tree.jpg)no-repeat center center/ cover;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+
+}
+.smaller-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    width: 20%;
+    height: 100%;
+    background: hsla(0,10%,5%,0.5);
+    margin: 0 33.3%;
+    padding: 2px;
+}
+.smaller-image {
+    position: relative;
+    z-index: 1;
+    width: 80%;
+    height: 40%;
+    margin: 40% auto 25%;
+}
+.smaller-p {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    font-family: "Norse", Sans-Serif;
+}
+.smaller-s {
+    font-weight: Bolder;
+    font-size: 1.5rem;
+}
+figcaption {
+    color: whitesmoke;
+    position: absolute;
+    bottom: 5px;
+    font-size: 0.6rem;
+    width: 200px;
+    margin: 0 33.3% 0 24%;
+}
+.gold {
+    color: gold;
+    text-decoration: underline #fff;
+}
+.aquamarine {
+    color: #ff2bdc;
+    text-decoration: underline white;
+}
+
+/*small div styles*/
+.small {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: left;
+    align-content: center;
+    justify-content: center;
+}
+.small>.small-content {
+    margin-bottom: 10px;
+}
+form {
+    display: flex;
+    justify-content: space-between;
+}
+.end {
+    0
+    margin-left: 50px;
+}
+.white {
+    background: #fff;
+}
+.white h1 {
+    font-size: 1.2rem;
+    margin: 8px inherit;
+}
+input {
+    margin-bottom: 5px;
+    outline: none;
+    transition: 0.3s ease-in-out;
+}
+input:hover {
+    border: 1px solid #80acff;
+    box-shadow: 1px 1px 1px 1px #e5e7eb;
+}
+label {
+    margin-top: 5px;
+}
+.error {
+    border: 1px solid red;
+    color: red;
+}
+
+.last {
+    margin-top: 10px;
+}
+.last button {
+    background: #596d48;
+    color: #fff;
+    outline: none;
+    border: none;
+    width: 120px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 3px;
+    transition: 0.2s linear;
+    margin-bottom: 15px;
+}
+.last button:hover {
+    background: green;
+}
+.last a {
+    text-decoration: none;
+    color: #596d48;
+    outline: transparent;
+}
+
+/*page styles end */
