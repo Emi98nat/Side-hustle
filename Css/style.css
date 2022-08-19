@@ -48,7 +48,7 @@ h1{ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 20px
     flex-direction: column;
     color: white;
     text-align: center;
-    font-family: "Norse", Sans-Serif;
+    font-family: 'Norse', cursive;
 }
 .smaller-s {
     font-weight: Bolder;
@@ -91,7 +91,6 @@ form {
     justify-content: space-between;
 }
 .end {
-    0
     margin-left: 50px;
 }
 .white {
@@ -99,7 +98,7 @@ form {
 }
 .white h1 {
     font-size: 1.2rem;
-    margin: 8px inherit;
+    margin: 8px 0;
 }
 input {
     margin-bottom: 5px;
